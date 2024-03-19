@@ -9,7 +9,7 @@ function initPano() {
   const panorama = new google.maps.StreetViewPanorama(
     document.getElementById("map"),
     {
-      position: { lat: searchParams.get('long'), lng: -106.7826051 },
+      position: { lat: 38.7211228, lng: -106.7826051 },
       addressControl: false,
       linksControl: true,
       panControl: true,
