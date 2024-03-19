@@ -17,6 +17,11 @@ function initPano() {
       disableDefaultUI: false,
     },
   );
+
+  const searchParams = new URLSearchParams(window.location.search);
+
+  console.log("long = ");
+  console.log(searchParams.get('long'));
 }
 
 
