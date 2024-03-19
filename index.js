@@ -4,6 +4,17 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 function initPano() {
+        const searchParams = new URLSearchParams(window.location.search);
+
+        document.write("long = ");
+        document.write(searchParams.get('long'));
+
+        document.write("\n\n");
+        document.write("lat = ");
+        document.write(searchParams.get('lat'));
+
+
+  
   // Note: constructed panorama objects have visible: true
   // set by default.
   const panorama = new google.maps.StreetViewPanorama(
