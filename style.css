@@ -21,3 +21,6 @@ body {
   padding: 0;
 }
 
+.gm-style a[href^="https://maps.google.com/maps"] {
+  display: none !important;
+}
