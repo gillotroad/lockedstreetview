@@ -4,12 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 function initPano() {
+  const position = { lat: 38.7211228, lng: -106.7826051 };
   // Note: constructed panorama objects have visible: true
   // set by default.
   const panorama = new google.maps.StreetViewPanorama(
     document.getElementById("map"),
     {
-      position: { lat: 38.7211228, lng: -106.7826051 },
+      position: position,
       addressControl: false,
       linksControl: true,
       panControl: true,
