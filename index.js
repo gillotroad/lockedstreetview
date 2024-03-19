@@ -17,7 +17,7 @@ function initPano() {
   
   // Note: constructed panorama objects have visible: true
   // set by default.
-  const panorama = new google.maps.StreetViewPanorama(
+  /*const panorama = new google.maps.StreetViewPanorama(
     document.getElementById("map"),
     {
       position: { lat: 38.7211228, lng: -106.7826051 },
@@ -28,6 +28,7 @@ function initPano() {
       disableDefaultUI: false,
     },
   );
+  */
 }
 
 window.initPano = initPano;
