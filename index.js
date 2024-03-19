@@ -21,6 +21,7 @@ function initPano() {
 
   const searchParams = new URLSearchParams(window.location.search);
 
+  console.log("TEST");
   console.log("long = ");
   console.log(searchParams.get('long'));
 }
